@@ -69,7 +69,7 @@ export default function LoginPage() {
           <div className="auth__card">
             {/* Título */}
             <div className="brand">
-              <Image src="/placeholder-logo.svg" alt="Logo" width={60} height={60} className="brand__badge" />
+              <Image src="/placeholder-logo.jpg" alt="Logo" width={60} height={60} className="brand__badge" />
               <h1 className="brand__title">Sistema de automação de PC</h1>
             </div>
 
@@ -197,7 +197,7 @@ export default function LoginPage() {
 
         {/* Coluna Direita (imagem) */}
         <div className="auth__right">
-          <Image src="/placeholder.svg?height=1080&width=720" alt="Background" fill className="auth__bg" />
+          <Image src="/placeholder.jpg" alt="Background" fill className="auth__bg" />
         </div>
       </div>
 
