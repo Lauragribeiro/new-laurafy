@@ -12,11 +12,6 @@ import { fileURLToPath } from "node:url";
 
 import { renderDocxBuffer } from "./src/utils/docxTemplate.js";
 
-import {
-  sanitizeDocxXml,
-  normalizeDocxPlaceholders,
-  renderDocxBuffer,
-} from "./src/utils/docxTemplate.js";
 
 import dayjs from "dayjs";
 import "dayjs/locale/pt-br.js";

@@ -183,7 +183,12 @@ document.addEventListener('DOMContentLoaded', function () {
   if (typeof window !== "undefined") {
     window.clonePropostas = clonePropostas;
   }
-  const cloneAvisos = (list) => Array.isArray(list) ? list.map((item) => String(item)) : [];
+  function cloneAvisos(list) {
+    return Array.isArray(list) ? list.map((item) => String(item)) : [];
+  }
+  if (typeof window !== "undefined") {
+    window.cloneAvisos = cloneAvisos;
+  }
   const normalizeObjeto = (val) => {
     if (val == null) return "";
     return String(val).trim();

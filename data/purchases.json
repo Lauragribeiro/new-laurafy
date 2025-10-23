@@ -1,5 +1,5 @@
-{
-  "1": [
+[
+  [
     {
       "id": "ee21myeqpy9",
       "favorecido": "BIDMAX SOLUCOES CORPORATIVAS LTDA",
@@ -136,7 +136,7 @@
       ]
     }
   ],
-  "1759149011623": [
+  [
     {
       "id": "voa8eyv9uc",
       "favorecido": "BIDMAX SOLUCOES CORPORATIVAS LTDA",
@@ -159,7 +159,7 @@
       ]
     }
   ],
-  "1759152634110": [
+  [
     {
       "id": "3v1cr47cuzi",
       "favorecido": "BIDMAX SOLUCOES CORPORATIVAS LTDA",
@@ -203,7 +203,7 @@
       ]
     }
   ],
-  "1759174577339": [
+  [
     {
       "id": "xk5fo0c3aya",
       "favorecido": "BIDMAX SOLUCOES CORPORATIVAS LTDA",
@@ -491,7 +491,7 @@
       }
     }
   ],
-  "1759510457044": [
+  [
     {
       "id": "pfhvdlsvyv8",
       "favorecido": "BIDMAX SOLUCOES CORPORATIVAS LTDA",
@@ -679,5 +679,157 @@
         }
       }
     }
-  ]
-}
+  ],
+  {
+    "favorecido": "BIDMAX SOLUCOES CORPORATIVAS LTDA",
+    "cnpj": "43.202.033/0001-27",
+    "pcNumero": "1ª PC",
+    "dataTitulo": "2025-06-30",
+    "nf": "000.000.123",
+    "nExtrato": "71.501",
+    "dataPagamento": "2025-07-15",
+    "valor": 180576,
+    "rubrica": "Aquisição ou uso de programas de computação e aquisição de máquinas, de equipamentos, de aparelhos e de instrumentos, seus acessórios, sobressalentes e ferramentas",
+    "mesLabel": "Jul/2025",
+    "mesAno": "7/2025",
+    "just": "JUSTIFICATIVA: Esta solicitação refere-se à compra de notebooks destinados aos novos alunos da próxima turma do Edge Academy",
+    "docs": {
+      "nf": {
+        "url": "",
+        "originalname": "nfe teste.pdf",
+        "mimetype": "application/pdf",
+        "size": 514131,
+        "filename": ""
+      },
+      "oficio": {
+        "url": "",
+        "originalname": "oficio solicitacao teste.pdf",
+        "mimetype": "application/pdf",
+        "size": 153798,
+        "filename": ""
+      },
+      "ordem": null,
+      "ordem_fornecimento": null,
+      "comprovante": {
+        "url": "",
+        "originalname": "comprovante teste_page-0001.jpg",
+        "mimetype": "image/jpeg",
+        "size": 387893,
+        "filename": ""
+      },
+      "folhaAssinada": null,
+      "decisaoAssinada": null,
+      "cotacoes": [
+        {
+          "url": "",
+          "originalname": "cotacao 1.pdf",
+          "mimetype": "application/pdf",
+          "size": 340224,
+          "filename": ""
+        },
+        {
+          "url": "",
+          "originalname": "cotacao 2.pdf",
+          "mimetype": "application/pdf",
+          "size": 6189196,
+          "filename": ""
+        },
+        {
+          "url": "",
+          "originalname": "cotacao 3.pdf",
+          "mimetype": "application/pdf",
+          "size": 1384585,
+          "filename": ""
+        }
+      ]
+    },
+    "objeto": "",
+    "cotacaoObjeto": "",
+    "cotacoes_objeto": "",
+    "objetoDescricao": "",
+    "propostas": [],
+    "cotacoes_propostas": [],
+    "id": "n6nl08akrpl",
+    "projectId": "1759510457044",
+    "data_titulo": "2025-06-30",
+    "data_emissao_iso": "2025-06-30",
+    "data_emissao": "2025-06-30",
+    "nf_recibo": "000.000.123",
+    "nf_num": "000.000.123",
+    "nf_num_mask": "000.000.123",
+    "nf_num_9": "000.000.123",
+    "nf_num_9_mask": "000.000.123",
+    "nf_mask": "000.000.123",
+    "justificativa": "JUSTIFICATIVA: Esta solicitação refere-se à compra de notebooks destinados aos novos alunos da próxima turma do Edge Academy",
+    "justificativa_para_compra": "JUSTIFICATIVA: Esta solicitação refere-se à compra de notebooks destinados aos novos alunos da próxima turma do Edge Academy",
+    "numero_extrato": "71.501",
+    "data_pagamento": "2025-07-15",
+    "valor_pago": 180576,
+    "valorPago": 180576,
+    "valor_pago_num": 180576,
+    "tipo_rubrica": "Aquisição ou uso de programas de computação e aquisição de máquinas, de equipamentos, de aparelhos e de instrumentos, seus acessórios, sobressalentes e ferramentas",
+    "tipoRubrica": "Aquisição ou uso de programas de computação e aquisição de máquinas, de equipamentos, de aparelhos e de instrumentos, seus acessórios, sobressalentes e ferramentas",
+    "mes_ano": "7/2025",
+    "cotacoesAvisos": [
+      "Falha na leitura das cotações (tentativa 1): 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Y14A. You can find your API key at https://platform.openai.com/account/api-keys.",
+      "Falha na leitura das cotações (tentativa 2): 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Y14A. You can find your API key at https://platform.openai.com/account/api-keys.",
+      "Falha na leitura das cotações (tentativa 3): 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Y14A. You can find your API key at https://platform.openai.com/account/api-keys."
+    ],
+    "cotacoes_avisos": [
+      "Falha na leitura das cotações (tentativa 1): 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Y14A. You can find your API key at https://platform.openai.com/account/api-keys.",
+      "Falha na leitura das cotações (tentativa 2): 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Y14A. You can find your API key at https://platform.openai.com/account/api-keys.",
+      "Falha na leitura das cotações (tentativa 3): 401 Incorrect API key provided: sk-proj-********************************************************************************************************************************************************Y14A. You can find your API key at https://platform.openai.com/account/api-keys."
+    ]
+  },
+  {
+    "favorecido": "BIDMAX SOLUCOES CORPORATIVAS LTDA",
+    "cnpj": "43.202.033/0001-27",
+    "pcNumero": "1ª PC",
+    "dataTitulo": "2025-06-30",
+    "nf": "000.000.123",
+    "nExtrato": "71.501",
+    "dataPagamento": "2025-07-15",
+    "valor": 180576,
+    "rubrica": "Aquisição ou uso de programas de computação e aquisição de máquinas, de equipamentos, de aparelhos e de instrumentos, seus acessórios, sobressalentes e ferramentas",
+    "mesLabel": "Jul/2025",
+    "mesAno": "07/2025",
+    "just": "",
+    "docs": {
+      "nf": null,
+      "oficio": null,
+      "ordem": null,
+      "ordem_fornecimento": null,
+      "comprovante": null,
+      "folhaAssinada": null,
+      "decisaoAssinada": null,
+      "cotacoes": []
+    },
+    "objeto": "",
+    "cotacaoObjeto": "",
+    "cotacoes_objeto": "",
+    "objetoDescricao": "",
+    "propostas": [],
+    "cotacoes_propostas": [],
+    "id": "bfppbbkkwb",
+    "projectId": "1759510457044",
+    "data_titulo": "2025-06-30",
+    "data_emissao_iso": "2025-06-30",
+    "data_emissao": "2025-06-30",
+    "nf_recibo": "000.000.123",
+    "nf_num": "000.000.123",
+    "nf_num_mask": "000.000.123",
+    "nf_num_9": "000.000.123",
+    "nf_num_9_mask": "000.000.123",
+    "nf_mask": "000.000.123",
+    "justificativa": "",
+    "justificativa_para_compra": "",
+    "numero_extrato": "71.501",
+    "data_pagamento": "2025-07-15",
+    "valor_pago": 180576,
+    "valorPago": 180576,
+    "valor_pago_num": 180576,
+    "tipo_rubrica": "Aquisição ou uso de programas de computação e aquisição de máquinas, de equipamentos, de aparelhos e de instrumentos, seus acessórios, sobressalentes e ferramentas",
+    "tipoRubrica": "Aquisição ou uso de programas de computação e aquisição de máquinas, de equipamentos, de aparelhos e de instrumentos, seus acessórios, sobressalentes e ferramentas",
+    "mes_ano": "07/2025"
+  }
+]
