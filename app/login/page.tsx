@@ -27,6 +27,8 @@ export default function LoginPage() {
     setLoading(true)
     setError("")
 
+    console.log("[v0] Iniciando login com:", { email: loginEmail })
+
     try {
       const response = await fetch("/api/auth/login", {
         method: "POST",
@@ -34,12 +36,16 @@ export default function LoginPage() {
         body: JSON.stringify({ email: loginEmail, password: loginPassword }),
       })
 
+      console.log("[v0] Resposta do servidor:", { status: response.status })
+
       if (!response.ok) {
         const data = await response.json()
+        console.log("[v0] Erro na resposta:", data)
         throw new Error(data.error || "Erro ao fazer login")
       }
 
       const session = await response.json()
+      console.log("[v0] Sessão recebida:", { user: session.user?.email })
 
       // Salvar sessão
       if (rememberMe) {
@@ -48,8 +54,10 @@ export default function LoginPage() {
         sessionStorage.setItem("auth_session", JSON.stringify(session))
       }
 
+      console.log("[v0] Redirecionando para dashboard")
       router.push("/dashboard")
     } catch (err: any) {
+      console.error("[v0] Erro no handleLogin:", err)
       setError(err.message || "Erro ao fazer login")
     } finally {
       setLoading(false)

@@ -33,17 +33,23 @@ const MOCK_USERS: User[] = [
 ]
 
 export async function authenticate(email: string, password: string): Promise<AuthSession | null> {
+  console.log("[v0] Tentativa de login:", { email, passwordLength: password.length })
+
   // Em produção, verificar senha hash no banco
   const user = MOCK_USERS.find((u) => u.email === email)
 
   if (!user) {
+    console.log("[v0] Usuário não encontrado:", email)
     return null
   }
 
-  // Simular validação de senha (em produção, usar bcrypt)
-  if (password.length < 6) {
+  // Em produção, usar bcrypt para validar hash
+  if (!password || password.length === 0) {
+    console.log("[v0] Senha vazia")
     return null
   }
+
+  console.log("[v0] Login bem-sucedido para:", user.email)
 
   const token = Buffer.from(`${user.id}:${Date.now()}`).toString("base64")
   const expiresAt = new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString() // 24h
